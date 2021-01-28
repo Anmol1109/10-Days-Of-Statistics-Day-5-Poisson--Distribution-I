@@ -6,7 +6,7 @@ import java.util.regex.*;
 
 public class Solution {
     
-    private static int fac(int n){
+    private static int fac(int n) {
         int f = 1;
         for(int i = 1;i <= n;i++)
             f *= i;
